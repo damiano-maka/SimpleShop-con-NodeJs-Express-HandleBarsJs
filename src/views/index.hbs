@@ -1,0 +1,11 @@
+
+
+
+<h1>Lista Prodotti</h1>
+<ul class="list-group">
+    {{#each products}}
+      <li class="list-group-item">
+        <a href="/prodotti/{{id}}">{{title}}</a>
+      </li>
+    {{/each}}
+</ul>
